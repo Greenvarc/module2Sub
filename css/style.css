@@ -3,12 +3,13 @@ body{
 }
 
 div > div{
+    position:relative;
     background-color: blueviolet;
-   
     border: rgba(12, 14, 17, 0.76) 2px solid;
 }
 p{
     margin: 2px;
+    padding-top: 30px;
 }
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +20,18 @@ h1{
     background-color: grey;
 }
 h2{
+    border: solid 2px black;
+    border-top: none;
+    border-right: none;
     font-weight: 400;
     text-align: right;
     color: rgb(218, 213, 213);
-    background-color: rgb(133, 77, 224);
+    background-color: rgb(94, 224, 77);
     margin-bottom: 4px;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    left: 50%;
     
 }
 /* media */
